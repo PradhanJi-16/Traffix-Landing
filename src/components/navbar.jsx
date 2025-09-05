@@ -10,6 +10,7 @@ const Navbar = (() => {
                     <img src={logo} alt="Logo" style={{ width: '135px', height: '84px' }} />
                 </div>
                 <nav class="navbar" >
+                    <a href="#product">Product</a>
                     <a href="#features" >Features</a>
                     <a href="#challenges" >Challenges</a>
                     <a href="#tech" >Technology</a>

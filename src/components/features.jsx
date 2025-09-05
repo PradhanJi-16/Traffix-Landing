@@ -106,7 +106,7 @@ import signal from "../assets/signal.jpg";
 
 export default function Features() {
         return (
-            <section className="features-section">
+            <section id ="features" className="features-section">
                 <div className="features-images">
                     <img
                         src={heatmap}
