@@ -3,8 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Features from "./components/features";
+import Product from "./components/product";
 import './App.css';
 import jam3 from "./assets/jam3.png";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <div className="content-overlay">
         <Navbar />
         <Hero />
+        <Product />
         <Features />
       </div>
       
