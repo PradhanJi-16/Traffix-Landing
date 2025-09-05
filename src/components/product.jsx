@@ -12,8 +12,8 @@ const Product = (() => {
                 <div className="product-grid">
                     <div className="product-card">
                         <div className="product-icon">
-                            <svg width="48" height="48" viewBox="0 0 48 48">
-                                <rect width="48" height="48" rx="12" fill="#59e397" />
+                            <svg width="60" height="60" viewBox="0 0 64 64">
+                                <rect width="60" height="60" rx="12" fill="#59e397" />
                                 <g>
                                     <rect x="14" y="19" width="20" height="12" rx="3" fill="#1b2e21" />
                                     <circle cx="24" cy="25" r="4" fill="#59e397" />
