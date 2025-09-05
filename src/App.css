@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+:root {
+  --background-white: #ffffff;
+  --background-light-gray: #f7f7f7;
+  --text-dark: #121212;
+  --text-medium: #555555;
+  --text-light: #888888;
+  --accent-green: #00c881;
+  --accent-green-darker: #00b373;
+  --border-color: #eaeaea;
+  --font-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.background-image {
+  position: relative;
+  width: 100vw;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  overflow: hidden;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  object-fit: cover;
+  z-index: 0;           
+  pointer-events: none;
+  opacity:0.8;
+  filter:brightness(0.3);
+}
+
+
+.background-image > div {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.content-overlay {
+  position: relative;
+  z-index: 3;
+}
+
+h1{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

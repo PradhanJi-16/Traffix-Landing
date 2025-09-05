@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar";
+import Hero from "./components/hero";
+import Features from "./components/features";
 import './App.css';
+import jam3 from "./assets/jam3.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="background-image">
+      <img src={jam3} alt="Traffic Background" className="bg-image" />
+      
+
+      <div className="content-overlay">
+        <Navbar />
+        <Hero />
+        <Features />
+      </div>
+      
     </div>
-  );
+  )
 }
 
 export default App;
