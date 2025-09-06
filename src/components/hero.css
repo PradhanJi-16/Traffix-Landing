@@ -14,9 +14,10 @@
 
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  
 }
 
 
@@ -43,4 +44,7 @@
 
 .hero-button:hover {
   background-color: #ffc107;
+}
+.hero{
+  margin-top: 5.5rem;
 }
