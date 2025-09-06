@@ -73,3 +73,6 @@ nav a {
     justify-content: center;
     transition: background-color 0.3s ease;
 }
+
+#product { scroll-margin-top: 135px; }
+#features { scroll-margin-top: 70px; }
