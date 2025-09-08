@@ -22,22 +22,22 @@ const Navbar = (() => {
             </div>
             <div></div >
         </header>
-        const headerColor = {
-            document.querySelector('.header'){
-                window.addEventListener('scroll', () => {
+       //{document.querySelector('.header'){
+               // window.addEventListener('scroll', () => {
                
-                    if (window.scrollY > 50) {
+      //              if (window.scrollY > 50) {
+    //
+          //          header.classList.add('scrolled');
+        //            } else {
     
-                    header.classList.add('scrolled');
-                    } else {
+            //         header.classList.remove('scrolled');
+              //      }
+              //  });     
+            //}} const headerColor = {
+            
+    )    
     
-                     header.classList.remove('scrolled');
-                    }
-                });     
-            }
-        }
-    )
 
-})
+});
 
 export default Navbar;
