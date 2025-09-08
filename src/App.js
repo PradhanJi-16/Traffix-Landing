@@ -6,6 +6,9 @@ import Features from "./components/features";
 import Product from "./components/product";
 import './App.css';
 import jam3 from "./assets/jam3.png";
+import Challenges from "./components/challenges";
+import Footer from "./components/footer";
+import Technology from "./components/technology.jsx";
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
         <Hero />
         <Product />
         <Features />
+        <Challenges/>
+        <Technology />
+        <Footer />
       </div>
       
     </div>
