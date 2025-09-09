@@ -69,3 +69,8 @@
   margin-bottom: 0.5rem;
   color: var(--text-dark);
 }
+
+.product-icon-1{
+  
+  color: #10B981; /* Darker green icon color */
+}

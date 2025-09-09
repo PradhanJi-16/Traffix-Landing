@@ -5,13 +5,16 @@ import Hero from "./components/hero";
 import Features from "./components/features";
 import Product from "./components/product";
 import './App.css';
-import jam3 from "./assets/jam3.png";
+import delhi from "./assets/delhi-traffic.webp";
+import Challenges from "./components/challenges";
+import Footer from "./components/footer";
+import Technology from "./components/technology.jsx";
 
 
 function App() {
   return (
     <div className="background-image">
-      <img src={jam3} alt="Traffic Background" className="bg-image" />
+      <img src={delhi} alt="Traffic Background" className="bg-image" />
       
 
       <div className="content-overlay">
@@ -19,6 +22,9 @@ function App() {
         <Hero />
         <Product />
         <Features />
+        <Challenges/>
+        <Technology />
+        <Footer />
       </div>
       
     </div>

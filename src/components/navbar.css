@@ -73,3 +73,8 @@ nav a {
     justify-content: center;
     transition: background-color 0.3s ease;
 }
+
+#product { scroll-margin-top: 135px; }
+#features { scroll-margin-top: 60px; }
+#challenges { scroll-margin-top: 70px; }
+#tech { scroll-margin-top: 85px; }
